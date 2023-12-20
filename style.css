@@ -64,8 +64,6 @@ body {
   font-family: "Nitida Display Light";
   font-size: var(--page-font-size);
   font-variation-settings: "wght" 300;
-
-
   background-color: var(--page-back);
   color: var(--page-fore);
     left: 0;
@@ -93,7 +91,7 @@ header {
 
 
 h1 {
-  font-variation-settings: "wght" 600;
+  font-variation-settings: "wght" 300;
   font-family: "Nitida Display Light";
     left: 0;
     line-height: 200px;
