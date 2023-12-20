@@ -64,10 +64,17 @@ body {
   font-family: "Nitida Display Light";
   font-size: var(--page-font-size);
   font-variation-settings: "wght" 300;
-  line-height: 1.25;
+
 
   background-color: var(--page-back);
   color: var(--page-fore);
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
 }
 
 header {
@@ -84,10 +91,19 @@ header {
   mix-blend-mode: difference;
 }
 
+
 h1 {
   font-variation-settings: "wght" 600;
   font-family: "Nitida Display Light";
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
 }
+
 
 section {
   background: var(--page-back);
