@@ -1,8 +1,8 @@
 /* taken from https://rsms.me/inter/ */
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', serif; }
+html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', serif; }
+  html { font-family: 'Inter var', sans-serif; }
 }
 
 /* setting up some default layouts and colors with CSS variables */
@@ -60,20 +60,14 @@ html { font-family: 'Inter', serif; }
   }
 }
 
-
-
 body {
-  font-family: "Nitida Display Light", serif;
+  font-family: "Nitida Display Light",serif;
   font-size: var(--page-font-size);
   font-variation-settings: "wght" 300;
+  line-height: 1.25;
+
   background-color: var(--page-back);
   color: var(--page-fore);
-    left: 0;
-    line-height: 1.25px;
-    margin-top: -100px;
-    position: absolute;
-    text-align: center;
-    
 }
 
 header {
@@ -90,14 +84,10 @@ header {
   mix-blend-mode: difference;
 }
 
-
 h1 {
   font-variation-settings: "wght" 300;
   font-family: "Nitida Display Light", serif;
-    text-align: center;
-  
 }
-
 
 section {
   background: var(--page-back);
