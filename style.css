@@ -60,9 +60,6 @@ html { font-family: 'Inter', sans-serif; }
   }
 }
 
-*  {
-  padding-top: 300px;
-}
 
 body {
   font-family: "Nitida Display Light",serif;
@@ -82,6 +79,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 1;
+
 
   /* invert text */
   color: #ffffff;
