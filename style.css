@@ -65,7 +65,7 @@ body {
   font-family: "Nitida Display Light",serif;
   font-size: var(--page-font-size);
   font-variation-settings: "wght" 300;
-  line-height: 1.25px;
+  line-height: .5;
 
   background-color: var(--page-back);
   color: var(--page-fore);
@@ -79,7 +79,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 1;
-
+  padding-top: 300px;
 
   /* invert text */
   color: #ffffff;
@@ -89,7 +89,7 @@ header {
 h1 {
   font-variation-settings: "wght" 300;
   font-family: "Nitida Display Light", serif;
-  line-height: 1.25px;
+  line-height: 1;
   text-align: center;
 }
 
