@@ -60,6 +60,33 @@ html { font-family: 'Inter', sans-serif; }
   }
 }
 
+/* CSS Centering Code with the Universal Selector "*" */ 
+
+* {
+
+  text-align: center;
+  
+  }
+  
+  /*Alternative CSS Centering Code with the "body" Selector*/
+  
+  body {
+  
+  text-align: center;
+  
+  }
+  
+  /* Styling */
+  
+  body {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'PT Serif', serif; 
+    color: #2E475D;    
+  }
+
+  /*--
 body {
   font-family: "Nitida Display Light";
   font-size: var(--page-font-size);
@@ -73,7 +100,7 @@ body {
     text-align: center;
     top: 50%;
     width: 100%;
-}
+} --*/
 
 header {
   
