@@ -1,8 +1,8 @@
 /* taken from https://rsms.me/inter/ */
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+html { font-family: 'Inter', serif; }
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+  html { font-family: 'Inter var', serif; }
 }
 
 /* setting up some default layouts and colors with CSS variables */
@@ -60,47 +60,21 @@ html { font-family: 'Inter', sans-serif; }
   }
 }
 
-/* CSS Centering Code with the Universal Selector "*" */ 
 
-* {
 
-  text-align: center;
-  
-  }
-  
-  /*Alternative CSS Centering Code with the "body" Selector*/
-  
-  body {
-  
-  text-align: center;
-  
-  }
-  
-  /* Styling */
-  
-  body {
-    margin: auto;
-    width: 640px; 
-    padding: 50px;
-    font-family: 'PT Serif', serif; 
-    color: #2E475D;    
-  }
-
-  /*--
 body {
-  font-family: "Nitida Display Light";
+  font-family: "Nitida Display Light", serif;
   font-size: var(--page-font-size);
   font-variation-settings: "wght" 300;
   background-color: var(--page-back);
   color: var(--page-fore);
     left: 0;
-    line-height: 200px;
+    line-height: 1.25px;
     margin-top: -100px;
     position: absolute;
     text-align: center;
-    top: 50%;
-    width: 100%;
-} --*/
+    
+}
 
 header {
   
@@ -119,14 +93,9 @@ header {
 
 h1 {
   font-variation-settings: "wght" 300;
-  font-family: "Nitida Display Light";
-    left: 0;
-    line-height: 200px;
-    margin-top: -100px;
-    position: absolute;
+  font-family: "Nitida Display Light", serif;
     text-align: center;
-    top: 50%;
-    width: 100%;
+  
 }
 
 
