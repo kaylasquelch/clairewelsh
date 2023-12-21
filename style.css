@@ -72,6 +72,7 @@ body {
 
   background-color: var(--page-back);
   color: var(--page-fore);
+  text-align: center;
 }
 
 header {
@@ -80,7 +81,6 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 24px;
   z-index: 1;
 
   /* invert text */
@@ -92,6 +92,7 @@ h1 {
   font-variation-settings: "wght" 300;
   font-family: "Nitida Display Light", serif;
   line-height: 1.25px;
+  text-align: center;
 }
 
 section {
